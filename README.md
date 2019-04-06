@@ -8,21 +8,21 @@ This is an ETL Pipeline designed for startup **Sparkify**, who wants to analyze 
 Fact and dimension tables were defined for a star schema with an analytic focus.
 
 ##### Fact Table
-**songplays** - records in log data associated with song plays i.e. records with page NextSong
-*songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent*
+<p>**songplays** - records in log data associated with song plays i.e. records with page NextSong</p>
+<p>*songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent*</p>
 
 ##### Dimension Tables
-**users** - users in the app
-*user_id, first_name, last_name, gender, level*
+<p>**users** - users in the app</p>
+<p>*user_id, first_name, last_name, gender, level*</p>
 
-**songs** - songs in music database
-*song_id, title, artist_id, year, duration*
+<p>**songs** - songs in music database</p>
+<p>*song_id, title, artist_id, year, duration*</p>
 
-**artists** - artists in music database
-*artist_id, name, location, lattitude, longitude*
+<p>**artists** - artists in music database</p>
+<p>*artist_id, name, location, lattitude, longitude*</p>
 
-**time** - timestamps of records in songplays broken down into specific units
-*start_time, hour, day, week, month, year, weekday*
+<p>**time** - timestamps of records in songplays broken down into specific units</p>
+<p>*start_time, hour, day, week, month, year, weekday*</p>
 
 ### Database creation script
 A script for creating and recreating the target database is provided for easy editions. Just run ´python create_tables.py´

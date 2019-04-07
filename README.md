@@ -7,11 +7,11 @@ This is an ETL Pipeline designed for startup **Sparkify**, who wants to analyze 
 ### Schema
 Fact and dimension tables were defined for a star schema with an analytic focus.
 
-##### Fact Table
+#### Fact Table
 **songplays** - records in log data associated with song plays i.e. records with page NextSong
 *songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent*
 
-##### Dimension Tables
+#### Dimension Tables
 **users** - users in the app
 *user_id, first_name, last_name, gender, level*
 
